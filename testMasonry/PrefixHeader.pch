@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  testMasonry
+//
+//  Created by 王迎博 on 15/12/24.
+//  Copyright © 2015年 王迎博. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Masonry.h"
+
+//屏幕的宽和高
+#define FULL_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define FULL_SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+//定义AutoLayout布局约束的屏幕适配
+#define Adopt_Device_iPhone6_Width FULL_SCREEN_WIDTH/375;
+#define Adopt_Device_iPhone6_Height FULL_SCREEN_HEIGHT/667;
+
+
+
+#endif /* PrefixHeader_pch */
